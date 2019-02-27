@@ -1,0 +1,40 @@
+.header{
+    background-color: #e2dfdf;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    padding: 15px;
+    letter-spacing: 2px;
+    position: fixed;
+    z-index: 2;
+    .app-icon{
+        flex: 1;
+        flex-shrink: 1;
+        position: relative;
+        span {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-weight: bold;
+            font-size: 24px;
+            left: 20px;
+        }
+        img {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    .subreddits{
+        flex: 8;
+        flex-shrink: 2
+    }
+    .user-settings{
+        flex: 1;
+        flex-shrink: 3;
+        .btn-success {
+            width: 80%;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.btn-success {
+    background-color: #eee;
+    border: 1px solid grey;
+    color: black;
+    font-weight: bold;
+    width: 20%;
+    text-align: justify;
+    letter-spacing: 2px;
+}
